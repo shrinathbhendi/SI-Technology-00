@@ -1,0 +1,17 @@
+{
+  "logo": "/images/logo/si-technology-new-logo.png",
+  "favicon": "/favicon/favicon.png",
+  "heroVideo": "/videos/hero_bg.mp4",
+  "gallery": {
+    "profiles": "/images/3D IMAGE WITH NAME SI-20260716T110720Z-1-001/3D IMAGE WITH NAME SI/40 X 40 H.png",
+    "conveyor": "/images/gallery/conveyor.png",
+    "guarding": "/images/gallery/guarding.png",
+    "workstation": "/images/workstations/workstations_001.jpg"
+  },
+  "placeholders": {
+    "connector": "/images/products/placeholder-connector.svg",
+    "pipe": "/images/products/placeholder-pipe.svg",
+    "profile": "/images/products/placeholder-profile.svg",
+    "workstation": "/images/products/placeholder-workstation.svg"
+  }
+}

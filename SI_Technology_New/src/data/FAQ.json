@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "What alloy grade is used in SI Technology aluminium profiles?",
+    "answer": "All our aluminium extrusion profiles are manufactured from high-grade Aluminium Alloy 6063 T6. This alloy offers excellent structural strength, corrosion resistance, and is anodized to standard thicknesses (15+ microns) in matte silver or black."
+  },
+  {
+    "id": 2,
+    "question": "Can you design custom workstations and frame structures?",
+    "answer": "Yes, custom engineering is one of our primary strengths. Our in-house engineering team works with your drawings (DXF/STEP/PDF) to design and pre-fabricate custom workstations, conveyor frames, HMI cabinets, and safety enclosures to your exact shopfloor dimensions."
+  },
+  {
+    "id": 3,
+    "question": "What is the benefit of using aluminium profiles over welded steel?",
+    "answer": "Aluminium profile systems require no welding, painting, or grinding. Structures can be assembled using simple hand tools, modified on-the-fly, and are 100% reusable. They are lightweight, look highly professional, and don't rust."
+  },
+  {
+    "id": 4,
+    "question": "Are your pipe and joint systems ESD-safe?",
+    "answer": "Yes, we offer specialized conductive pipes (coated with ESD-conductive ABS plastic) and chrome/nickel-plated metal joints that maintain electrical continuity, making them perfect for static-sensitive electronics assembly."
+  },
+  {
+    "id": 5,
+    "question": "What is your standard delivery time and shipping scope?",
+    "answer": "For stock profiles and standard connectors, we offer dispatch within 24–48 hours. For engineered solutions and workstations, delivery depends on project complexity (typically 7–15 days). We ship to industrial hubs all across India."
+  }
+]

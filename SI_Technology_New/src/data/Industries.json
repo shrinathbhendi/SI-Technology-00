@@ -1,0 +1,66 @@
+[
+  {
+    "id": "automobile",
+    "name": "Automobile & Auto Parts",
+    "description": "Heavy-duty frame assemblies, robotic cell enclosures, dynamic assembly line conveyors, and picking workstations engineered to handle high loads and continuous usage.",
+    "icon": "Car",
+    "solution": "We provide custom structures using 80x80 & 45x45 heavy aluminium profiles, combined with high-load steel fasteners and mesh guarding to secure robotic cells and automate materials transport.",
+    "benefit": "Increased safety compliant with automotive standards, zero down-time, and flexible layouts that adapt to new vehicle chassis lines."
+  },
+  {
+    "id": "electronics",
+    "name": "Electronics & Semiconductor",
+    "description": "ESD-safe workstations, static-dissipative pipe shelving, PCB handling trolleys, and cleanroom-compliant material flows.",
+    "icon": "Cpu",
+    "solution": "By combining ESD green laminates, grounding cords, and ESD conductive pipes with surface resistances of 10³–10⁵ Ω, we prevent electrostatic damage during component placement and testing.",
+    "benefit": "Near-zero static discharge risk, modular cell re-layout, and ergonomic parts bins within arms reach."
+  },
+  {
+    "id": "packaging",
+    "name": "Packaging & Dispatch",
+    "description": "Custom packaging benches, roller gravity flow feeds, shipping label workstations, and box conveyor systems.",
+    "icon": "Box",
+    "solution": "We engineer workstations with built-in bubble wrap rollers, overhead tool bars, integrated scale platforms, and heavy-duty casters to speed up sorting and dispatch.",
+    "benefit": "30% reduction in package handling times, organized material layout, and reduced operator physical fatigue."
+  },
+  {
+    "id": "food-beverage",
+    "name": "Food & Beverage Processing",
+    "description": "Clean, rust-proof conveyor belts, anodized aluminium machine guard screens, and modular material sorting trays.",
+    "icon": "GlassWater",
+    "solution": "We use clean silver-anodized profiles with smooth nylon filler strips for T-slots to prevent dust accumulation, combined with clear food-grade polycarbonate shielding.",
+    "benefit": "Hygienic, easy-to-wash structures that comply with food health guidelines without rusting or requiring paint maintenance."
+  },
+  {
+    "id": "pharma",
+    "name": "Pharmaceuticals & Labs",
+    "description": "Stainless-steel and cleanroom aluminium workstations, sterile containment hoods, and laboratory test benches.",
+    "icon": "ShieldAlert",
+    "solution": "We build dust-free cleanroom enclosures with integrated HEPA filter hoods, scratch-proof laboratory table tops, and sealed profiles to prevent bacterial deposits.",
+    "benefit": "Strict compliance with lab clean room guidelines, easy chemical sanitization, and flexible laboratory equipment setups."
+  },
+  {
+    "id": "warehouse-logistics",
+    "name": "Warehouse & Logistics",
+    "description": "High-density FIFO flow racks, materials trolleys, gravity conveyor paths, and sorting bins.",
+    "icon": "Truck",
+    "solution": "Our heavy-duty steel pipe structures, combined with 40-series roller tracks and inline joints, form robust gravity flow racks that automatically feed bins to the picking face.",
+    "benefit": "Strict First-In-First-Out rotation, reduced inventory search times, and modular layout scalability."
+  },
+  {
+    "id": "engineering",
+    "name": "Industrial Engineering",
+    "description": "Custom linear gantries, multi-axis slide assemblies, pneumatic fixture frames, and test bench housings.",
+    "icon": "Wrench",
+    "solution": "Using high-stiffness T-slot profiles and precision connectors, we construct gantry frames capable of supporting heavy actuator lines and high-speed linear slides.",
+    "benefit": "High structural rigidity, precise linear slide alignment, and rapid mechanical modifications."
+  },
+  {
+    "id": "manufacturing",
+    "name": "General Manufacturing Solutions",
+    "description": "Shopfloor workstations, industrial display boards, tool racks, visual management panels, and HMI console enclosures.",
+    "icon": "Factory",
+    "solution": "We build standard 40-series profile structures, display frames, and sheet-metal HMI enclosures with adjustable swing arms for comfortable shopfloor control.",
+    "benefit": "Standardized shopfloor aesthetics, visual lean factory management, and ergonomic controller positioning."
+  }
+]

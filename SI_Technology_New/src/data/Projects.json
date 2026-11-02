@@ -1,0 +1,47 @@
+[
+  {
+    "id": "fifo-rack-automotive",
+    "name": "High-Density FIFO Gravity Racks for Auto-Component Storage",
+    "industry": "Automobile & Auto Parts",
+    "slug": "fifo-rack-automotive",
+    "challenge": "An automotive assembly plant faced severe floor congestion and parts-mixing due to lack of structured inventory rotation. Operators spent critical time searching for correct part batches.",
+    "solution": "We designed and installed a series of heavy-duty, 3-tier gravity FIFO (First-In-First-Out) flow racks using 28mm ABS coated steel pipes, metal sockets, and 40-series polypropylene roller tracks.",
+    "result": "Established 100% parts rotation tracking, reduced operators' picking search times by 40%, and increased shopfloor space utilization by 25%.",
+    "beforeImg": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop",
+    "afterImg": "/images/gallery/sample_02.jpg",
+    "gallery": [
+      "/images/gallery/sample_02.jpg",
+      "/images/gallery/sample_04.jpg"
+    ]
+  },
+  {
+    "id": "esd-workstations-assembly",
+    "name": "ESD Workstation Assembly Line for Electronics Manufacturer",
+    "industry": "Electronics & Semiconductor",
+    "slug": "esd-workstations-assembly",
+    "challenge": "An electronics manufacturing facility experienced 4% component failures due to electrostatic discharge (ESD) during manual soldering, alongside operator fatigue from non-ergonomic desks.",
+    "solution": "We engineered custom height-adjustable workstations on 40x40 aluminium profiles, fitted with ESD conductive laminate tops, static-dissipative wrist strap sockets, and overhead tool holders.",
+    "result": "ESD component failure rates dropped to 0.1%, and operator productivity improved by 18% due to ergonomic accessory layouts.",
+    "beforeImg": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop",
+    "afterImg": "/images/gallery/sample_03.jpg",
+    "gallery": [
+      "/images/gallery/sample_03.jpg",
+      "/images/gallery/sample_01.jpg"
+    ]
+  },
+  {
+    "id": "robotic-cell-guarding",
+    "name": "Robotic Welding Cell Perimeter Safety Guarding System",
+    "industry": "General Manufacturing Solutions",
+    "slug": "robotic-cell-guarding",
+    "challenge": "A metal fabrication plant required immediate compliance with ISO safety standards for high-speed robotic welding cells. Existing steel fencing took days to weld and install.",
+    "solution": "We supplied and installed a modular safety fencing system using 40-series aluminium profiles with a safety yellow coating, paired with clear polycarbonate panes and wire mesh panels.",
+    "result": "Completed the 50-meter perimeter fence installation in under 8 hours with zero welding required, fully achieving ISO safety compliance.",
+    "beforeImg": "https://images.unsplash.com/photo-1563770660941-20978e870e26?q=80&w=800&auto=format&fit=crop",
+    "afterImg": "/images/gallery/sample_05.jpg",
+    "gallery": [
+      "/images/gallery/sample_05.jpg",
+      "/images/gallery/sample_06.jpg"
+    ]
+  }
+]

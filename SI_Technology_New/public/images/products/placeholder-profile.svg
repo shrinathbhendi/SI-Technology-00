@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Aluminium Profile representation -->
+  <rect width="200" height="200" fill="#EFF6FF"/>
+  <!-- Profile cross-section -->
+  <rect x="60" y="60" width="80" height="80" rx="2" fill="#1e3a5f" opacity="0.15"/>
+  <!-- T-slot grooves -->
+  <rect x="60" y="88" width="80" height="8" rx="1" fill="#1e3a5f" opacity="0.3"/>
+  <rect x="88" y="60" width="8" height="80" rx="1" fill="#1e3a5f" opacity="0.3"/>
+  <!-- Center square -->
+  <rect x="76" y="76" width="48" height="48" rx="4" fill="#1e3a5f" opacity="0.12"/>
+  <!-- Label -->
+  <text x="100" y="170" font-family="sans-serif" font-size="11" fill="#1e3a5f" text-anchor="middle" opacity="0.7">Aluminium Profile</text>
+</svg>

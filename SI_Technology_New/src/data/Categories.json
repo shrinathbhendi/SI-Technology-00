@@ -1,0 +1,238 @@
+[
+  {
+    "id": "aluminium-profiles",
+    "name": "Aluminium Industrial Profiles",
+    "slug": "aluminium-profiles",
+    "description": "Premium industrial aluminium extrusion profiles in 20, 30, 40, 60, and 80 series. Manufactured from high-grade Aluminium Alloy 6063 T6 with silver or black anodized finish.",
+    "image": "/images/Aluminium industrial.png",
+    "subcategories": [
+      {
+        "id": "20-series",
+        "name": "20 Series Profiles"
+      },
+      {
+        "id": "30-series",
+        "name": "30 Series Profiles"
+      },
+      {
+        "id": "40-series",
+        "name": "40 & 45 Series Profiles"
+      },
+      {
+        "id": "60-series",
+        "name": "60 Series Profiles"
+      },
+      {
+        "id": "80-series",
+        "name": "80 Series Profiles"
+      }
+    ],
+    "features": [
+      "Precision extrusion matching DIN standard",
+      "High strength-to-weight ratio",
+      "Corrosion-resistant anodized finish",
+      "Zero welding required for assembly"
+    ]
+  },
+  {
+    "id": "connecting-elements",
+    "name": "Accessories & Connectors",
+    "slug": "connecting-elements",
+    "description": "Essential structural components for fast, modular framing. Includes high-tensile brackets, cube joints, hidden fasteners, and spring-ball drop-in T-nuts.",
+    "image": "/images/products/placeholder-connector.svg",
+    "subcategories": [
+      {
+        "id": "corner-brackets",
+        "name": "Corner Brackets"
+      },
+      {
+        "id": "hidden-brackets",
+        "name": "Hidden Connectors"
+      },
+      {
+        "id": "joints",
+        "name": "Cube & Linear Joints"
+      },
+      {
+        "id": "nuts-bolts",
+        "name": "T-Slot Nuts & Bolts"
+      }
+    ],
+    "features": [
+      "Heavy-duty die-cast zinc and extruded aluminium",
+      "Anti-rotation alignment features",
+      "Easy adjustments and rapid modifications",
+      "Vibration-proof locking mechanisms"
+    ]
+  },
+  {
+    "id": "pipe-joint-systems",
+    "name": "Pipe & Joint Systems",
+    "slug": "pipe-joint-systems",
+    "description": "Modular lean manufacturing pipe framing systems. ABS coated steel pipes, ESD-conductive pipes, roller tracks, and nickel/ED-coated metal joint connectors.",
+    "image": "/images/products/placeholder-pipe.svg",
+    "subcategories": [
+      {
+        "id": "pipes",
+        "name": "ABS & ESD Pipes"
+      },
+      {
+        "id": "metal-joints",
+        "name": "Metal Pipe Joints"
+      },
+      {
+        "id": "roller-conveyors",
+        "name": "Roller Tracks & Slides"
+      }
+    ],
+    "features": [
+      "Ideal for Kaizen and Lean Manufacturing",
+      "Scratch-protective ABS plastic coat",
+      "ESD-safe options for electronics assembly",
+      "Fast assembly using standard Allen key"
+    ]
+  },
+  {
+    "id": "workstations",
+    "name": "Workstations & Solutions",
+    "slug": "workstations",
+    "description": "Custom shopfloor structures built on aluminium profiles. Ergonomic workstations, ESD electronics benches, machine framing enclosures, and safety guard fencing.",
+    "image": "/images/products/placeholder-workstation.svg",
+    "subcategories": [
+      {
+        "id": "assembly-workstations",
+        "name": "Assembly Workstations"
+      },
+      {
+        "id": "esd-workstations",
+        "name": "ESD Safe Benches"
+      },
+      {
+        "id": "machine-frames",
+        "name": "Machine Frames"
+      },
+      {
+        "id": "safety-guarding",
+        "name": "Safety Guarding Fences"
+      },
+      {
+        "id": "industrial-trolleys",
+        "name": "Material Handling Trolleys"
+      }
+    ],
+    "features": [
+      "Custom sized and engineered layouts",
+      "Ergonomic accessories and tool rails",
+      "ISO-compliant machine safety layouts",
+      "High load capacities (up to 500kg+)"
+    ]
+  },
+  {
+    "id": "profile-applications",
+    "name": "Profile Applications",
+    "slug": "profile-applications",
+    "description": "Real-world engineering applications of our modular aluminium profile framing systems in automation, material handling, kitting, guarding, and production lines.",
+    "image": "/images/products/placeholder-profile.svg",
+    "subcategories": [
+      {
+        "id": "assembly-lines",
+        "name": "Assembly & Automation Platform"
+      },
+      {
+        "id": "guarding-curtains",
+        "name": "Guards & Clean Enclosures"
+      }
+    ],
+    "features": [
+      "Rigid lightweight structural solutions",
+      "Tailored kitting, cell & station frame designs",
+      "High strength joints and slot connections",
+      "Anodized aesthetic look and feel"
+    ]
+  },
+  {
+    "id": "belt-conveyors",
+    "name": "Belt Conveyors",
+    "slug": "belt-conveyors",
+    "description": "A belt conveyor is a mechanical handling system consisting of two or more pulleys with a continuous loop of material (belt) that rotates around them. It is widely used to transport materials efficiently over short or long distances.",
+    "image": "/images/conveyor/Picture 142.jpg",
+    "subcategories": [],
+    "features": [
+      "Efficient Material Handling : Enables continuous and smooth transport of materials.",
+      "Cost-effective : Reduces labor costs and increases productivity.",
+      "Versatile : Can handle a wide range of materials bulk or unit items.",
+      "Customizable : Adjustable speed, length, and design for specific needs.",
+      "Safe Operation : Minimizes manual handling and reduces workplace injuries."
+    ]
+  },
+  {
+    "id": "heavy-duty-app",
+    "name": "Heavy Duty Applications",
+    "slug": "heavy-duty-app",
+    "description": "High-strength structural systems designed for heavy manufacturing, load-bearing machine bases, large-scale automation framing, and heavy-duty industrial cells.",
+    "image": "/images/Have duty app/IMG_2691.JPG",
+    "subcategories": [],
+    "features": [
+      "Rigid construction: Heavy-duty 80-series and 90-series profiles.",
+      "High load capacity: Engineered to support heavy equipment and machinery.",
+      "Modular design: Easy assembly and adjustment without welding.",
+      "Vibration-resistant: Strong connections built for dynamic loads."
+    ]
+  },
+  {
+    "id": "heavy-duty-profiles",
+    "name": "Heavy Duty Profiles",
+    "slug": "heavy-duty-profiles",
+    "description": "Premium high-strength aluminium extrusion profiles and connection nodes designed to support massive loads and create structural frames for portal systems and columns.",
+    "image": "/images/Heavy duty profiles/Portalsystem.jpg",
+    "subcategories": [],
+    "features": [
+      "High structural strength: Optimized for heavy load portal frames and columns.",
+      "Integrated connection nodes: Multi-directional joints for maximum rigidity.",
+      "Corrosion resistance: High-durability anodized finish.",
+      "Precision alignment: Engineered slots for secure and rapid corner connections."
+    ]
+  },
+  {
+    "id": "profile-assembly-system",
+    "name": "Profile Assembly Systems",
+    "slug": "profile-assembly-system",
+    "description": "Comprehensive modular assembly layouts, custom industrial work benches, cleanrooms, gantry systems, and automated inspection frames built on standardized profile structures.",
+    "image": "/images/Profile Assembly System/Werkbank.jpg",
+    "subcategories": [],
+    "features": [
+      "End-to-end integration: Combines framing, sliding pathways, and connections.",
+      "Custom industrial setups: Ergonomic benches, cleanrooms, and enclosures.",
+      "High reliability: Engineered to match industrial manufacturing tolerances.",
+      "Modular components: Easy re-configuration and upgrade path."
+    ]
+  },
+  {
+    "id": "finishing-systems",
+    "name": "Finishing Systems",
+    "slug": "finishing-systems",
+    "description": "Premium edge trim covers, slot sealing profiles, protective radius covers, and modular end caps designed to provide professional finishing, safety, and dust prevention to structural assemblies.",
+    "image": "/images/feneshing/Picture 583.jpg",
+    "subcategories": [],
+    "features": [
+      "Dust and dirt protection: Sealed slots prevent debris accumulation inside profiles.",
+      "Enhanced safety: Smooth end caps and edge trims cover sharp cuts.",
+      "Aesthetic finishing: High-quality covers in multiple colours (Black, Grey, Yellow).",
+      "Easy snap-on assembly: Press-fit design requires no tools."
+    ]
+  },
+  {
+    "id": "protection-systems",
+    "name": "Protection Systems",
+    "slug": "protection-systems",
+    "description": "Standardized safety fencing, transparent machine enclosures, hazard partitions, curved protective booths, and automated guarding cells built with robust aluminium framing and panels.",
+    "image": "/Protection System/gebogene Schutzumhausung.jpg",
+    "subcategories": [],
+    "features": [
+      "Personnel safety: Fully partitions hazardous machines from human operators.",
+      "Custom enclosure design: Supports sliding doors, curved plexiglass, and lift gates.",
+      "High transparency: High-impact polycarbonate sheets ensure full viewing clarity.",
+      "Compliance ready: Built according to global machinery guarding safety standards."
+    ]
+  }
+]

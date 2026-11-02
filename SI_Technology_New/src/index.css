@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Orbitron:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xs: 480px;
+  /* Deep Midnight & Dark Blue Scale */
+  --color-primary-50: #f0f7ff;
+  --color-primary-100: #e0f2fe;
+  --color-primary-200: #bae6fd;
+  --color-primary-300: #7dd3fc;
+  --color-primary-400: #38bdf8;
+  --color-primary-500: #2563eb;
+  --color-primary-600: #1d4ed8;
+  --color-primary-700: #1e3a8a;
+  --color-primary-800: #0f172a;
+  --color-primary-900: #0a1128;
+  --color-primary-950: #030712;
+
+  /* Vibrant Royal & Electric Blue Scale */
+  --color-accent-50: #eff6ff;
+  --color-accent-100: #dbeafe;
+  --color-accent-200: #bfdbfe;
+  --color-accent-300: #93c5fd;
+  --color-accent-400: #60a5fa;
+  --color-accent-500: #3b82f6;
+  --color-accent-600: #2563eb;
+  --color-accent-700: #1d4ed8;
+  --color-accent-800: #1e40af;
+  --color-accent-900: #1e3a8a;
+  --color-accent-950: #172554;
+
+  /* Crisp White, Navy Slate & Charcoal Black Scale */
+  --color-dark-50: #ffffff;
+  --color-dark-100: #f8fafc;
+  --color-dark-200: #f1f5f9;
+  --color-dark-300: #e2e8f0;
+  --color-dark-400: #94a3b8;
+  --color-dark-500: #64748b;
+  --color-dark-600: #475569;
+  --color-dark-700: #1e293b;
+  --color-dark-800: #0f172a;
+  --color-dark-900: #030712;
+
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-display: "Outfit", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-orbitron: "Orbitron", sans-serif;
+}
+
+/* Base styles and defaults */
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: var(--color-dark-800);
+    background-color: #ffffff;
+    scroll-behavior: auto;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-dark-800);
+    background-color: #ffffff;
+    scroll-behavior: auto;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom Utilities */
+@utility sticky-sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 110px;
+  align-self: flex-start;
+}
+
+@utility bg-grid-pattern {
+  background-image:
+    linear-gradient(to right, rgba(37, 99, 235, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(37, 99, 235, 0.08) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+@utility bg-grid-light {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+@utility bg-dot-pattern {
+  background-image: radial-gradient(rgba(37, 99, 235, 0.15) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+@utility bg-blueprint {
+  background-color: #0a1128;
+  background-image:
+    linear-gradient(to right, rgba(59, 130, 246, 0.12) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(59, 130, 246, 0.12) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Swiss Grid Border Lines (Drafting/Engineering Aesthetic) */
+@utility swiss-border-r {
+  border-right: 1px solid rgba(37, 99, 235, 0.15);
+}
+
+@utility swiss-border-b {
+  border-bottom: 1px solid rgba(37, 99, 235, 0.15);
+}
+
+@utility swiss-border-l {
+  border-left: 1px solid rgba(37, 99, 235, 0.15);
+}
+
+@utility swiss-border-t {
+  border-top: 1px solid rgba(37, 99, 235, 0.15);
+}
+
+/* Glassmorphism Styles */
+@utility glass-card {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(37, 99, 235, 0.12);
+}
+
+@utility glass-card-dark {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+/* Premium Typography Utilities */
+@utility text-reveal-effect {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Interactive Component Styles */
+@utility btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: var(--font-display);
+  padding: 0.875rem 2rem;
+  border-radius: 9999px;
+  box-shadow: 0 4px 18px rgba(37, 99, 235, 0.35);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+
+  &:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(37, 99, 235, 0.45);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+@utility btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #eff6ff;
+  color: #0f172a;
+  border: 1px solid #bfdbfe;
+  font-weight: 700;
+  font-family: var(--font-display);
+  padding: 0.875rem 2rem;
+  border-radius: 9999px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+
+  &:hover {
+    background-color: #dbeafe;
+    border-color: #2563eb;
+    color: #1d4ed8;
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+@utility btn-outline-white {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  font-weight: 700;
+  font-family: var(--font-display);
+  padding: 0.875rem 2rem;
+  border-radius: 9999px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(37, 99, 235, 0.25);
+    border-color: #60a5fa;
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+/* Animations and Transitions */
+.page-transition-enter {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.page-transition-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 400ms ease, transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.page-transition-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-transition-exit-active {
+  opacity: 0;
+  transform: translateY(-12px);
+  transition: opacity 300ms ease, transform 300ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Lenis Custom Scrollbar styling */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overflow: clip;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-dark-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(37, 99, 235, 0.35);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+
+/* Custom 3D & Animation Utilities for Hero Section Redesign */
+@keyframes float-slow {
+
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-15px) rotate(1deg);
+  }
+}
+
+@utility animate-float {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+@utility perspective-1000 {
+  perspective: 1000px;
+}
+
+@utility text-3d-vertical {
+  transform: rotateY(-35deg) rotateX(15deg) rotateZ(-90deg);
+  transform-style: preserve-3d;
+  text-shadow:
+    1px 1px 0px rgba(59, 130, 246, 0.2),
+    2px 2px 0px rgba(59, 130, 246, 0.2),
+    3px 3px 0px rgba(59, 130, 246, 0.1);
+}
+
+@utility text-3d-heavy-slate {
+  text-shadow:
+    1px 1px 0px #1e3a8a,
+    2px 2px 0px #1e293b,
+    3px 3px 0px #0f172a,
+    4px 4px 0px #0a1128,
+    5px 5px 12px rgba(37, 99, 235, 0.25);
+}
+
+@utility text-3d-heavy-orange {
+  text-shadow:
+    1px 1px 0px #2563eb,
+    2px 2px 0px #1d4ed8,
+    3px 3px 0px #1e40af,
+    4px 4px 0px #1e3a8a,
+    5px 5px 12px rgba(37, 99, 235, 0.35);
+}
+
+@utility text-3d-heavy-teal {
+  text-shadow:
+    1px 1px 0px #1d4ed8,
+    2px 2px 0px #1e40af,
+    3px 3px 0px #1e3a8a,
+    4px 4px 0px #0f172a,
+    5px 5px 12px rgba(37, 99, 235, 0.3);
+}
+
+/* ─── Slow Orbit Ring Spin ─── */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 12s linear infinite;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-none {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

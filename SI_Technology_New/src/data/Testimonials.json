@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Rajesh Kumar",
+    "role": "Plant Manager",
+    "company": "AutoParts India Ltd (Pune)",
+    "content": "SI Technology's heavy-duty 80x80 aluminium profiles and custom machine frames have drastically reduced our cell installation times. Their engineering support from design to installation is exceptional.",
+    "rating": 5,
+    "avatar": "RK"
+  },
+  {
+    "id": 2,
+    "name": "Nisha Mehta",
+    "role": "Operations Head",
+    "company": "ElectroTech Solutions (Bangalore)",
+    "content": "We upgraded our assembly floor with SI Technology ESD workstations and conductive pipe joints. The static dissipation is reliable, and the ergonomics have improved operator efficiency by 15%.",
+    "rating": 5,
+    "avatar": "NM"
+  },
+  {
+    "id": 3,
+    "name": "Vikram Shah",
+    "role": "Logistics Director",
+    "company": "SafeWare Warehousing (Mumbai)",
+    "content": "The FIFO racks and modular trolleys supplied by SI Technology changed how we handle inventory on the floor. Sturdy build quality, zero maintenance, and very easy to adjust as our SKU layouts change.",
+    "rating": 5,
+    "avatar": "VS"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Amit Patil",
+    "role": "Production Coordinator",
+    "company": "Apex Pharmaceuticals (Goa)",
+    "content": "In pharma, cleanliness and modularity are key. The anodized profiles and polycarbonate cleanroom safety guarding systems from SI Technology met all our compliance standards with ease.",
+    "rating": 5,
+    "avatar": "AP"
+  }
+]
