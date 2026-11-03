@@ -119,17 +119,17 @@ export default function Home() {
       imageScale: "h-[260px] sm:h-[380px] lg:h-[440px] xl:h-[480px]"
     },
     {
-      image: "/images/hero-connecting-joint.png",
-      title1: "Precision Connecting",
-      title2: "Elements & Joints.",
-      subtitle: "Secure Fasteners & Structural Assembly Accessories.",
-      imageScale: "h-[260px] sm:h-[380px] lg:h-[440px] xl:h-[480px]"
+      image: "/images/PCB Testing Workstation.png",
+      title1: "PCB Testing",
+      title2: "Workstations.",
+      subtitle: "Dedicated Electronics & Diagnostic Stations with Visual Stack Lights & Shelving.",
+      imageScale: "h-[300px] sm:h-[440px] lg:h-[500px] xl:h-[540px]"
     },
     {
-      image: "/images/hero1.png",
-      title1: "Automated Assembly",
-      title2: "Machine Structures.",
-      subtitle: "Heavy-Duty Aluminium Machine Framing & Custom Pneumatic Assembly Systems.",
+      image: "/images/Inspection Table.png",
+      title1: "Quality Inspection",
+      title2: "Tables.",
+      subtitle: "Precision QC Stations with Articulating Magnifiers & High-CRI Overhead Lighting.",
       imageScale: "h-[300px] sm:h-[440px] lg:h-[500px] xl:h-[540px]"
     },
     {
