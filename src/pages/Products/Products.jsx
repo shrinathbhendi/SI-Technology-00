@@ -299,6 +299,22 @@ const WORKSTATIONS = [
     },
   },
   {
+    id: "ws-ms-fabricator-table",
+    name: "MS Fabricator & Welding Table",
+    image: "/images/MS Fabricator Table.png",
+    gallery: ["/images/MS Fabricator Table.png"],
+    desc: "Heavy-duty industrial mild steel fabrication and welding table with reinforced steel top, precision clamping grid, integrated tool shelves, and heavy structural legs.",
+    specs: {
+      "Load Capacity": "1000–2500 kg",
+      "Table Top Material": "Precision Ground Mild Steel Plate (10mm - 20mm)",
+      "Frame Structure": "Heavy-Duty MS Hollow Section Welded Construction",
+      "Surface Treatment": "Anti-Rust Primer & Industrial Powder Coating",
+      "Fixture Grid": "D28 / D16 Precision CNC Clamping Hole Matrix",
+      "Leveling": "Heavy-Duty Anti-Vibration M20 Swivel Leveling Pads",
+      "Application": "Welding fixtures, metal fabrication, precision assembly, heavy tool repair"
+    },
+  },
+  {
     id: "ws-001",
     name: "Heavy-Duty Profile Assembly Workstation",
     image: "/images/workstations/workstations_001.jpg",
@@ -571,6 +587,21 @@ const WORKSTATIONS = [
 ];
 
 const PIPE_JOINT = [
+  {
+    id: "pj-accessories-01",
+    name: "Pipe & Joint Modular Accessories",
+    image: "/images/Pipe & Joint Accessories.png",
+    gallery: ["/images/Pipe & Joint Accessories.png"],
+    desc: "Complete assortment of precision modular accessories for lean pipe and joint structures, including metal joints, placon roller tracks, mounting brackets, slide rails, and end caps.",
+    specs: {
+      "Material": "SPCC Cold Rolled Steel / Electrophoretic Coating",
+      "Joint Types": "T-Joint, Cross-Joint, Angle Joint, Swivel Connector",
+      "Roller Tracks": "Aluminium / Steel Placon Roller Guides",
+      "Compatibility": "Ø28mm Lean Coated & Stainless Steel Pipes",
+      "Finish": "Black Electrophoresis / Nickel-Plated / Zinc-Plated",
+      "Application": "FIFO flow racks, assembly trolleys, Kaizen lean cells"
+    }
+  },
   {
     id: "pj-001",
     name: "Lean Pipe & Joint Assembly Trolley",
@@ -1322,6 +1353,37 @@ const HEAVY_DUTY_PROFILES = [
 
 const PROFILE_ASSEMBLY_SYSTEM = [
   {
+    id: "pas-hmi-enclosure",
+    name: "Industrial HMI Control Enclosure",
+    image: "/images/HMI Enclosure.png",
+    gallery: ["/images/HMI Enclosure.png"],
+    desc: "Customizable industrial HMI housing and operator panel enclosure manufactured from anodized aluminium profiles with internal mounting chassis, cooling vents, and swivel support arm.",
+    specs: {
+      "Enclosure Material": "Extruded Aluminium 6063-T6 with Cast Corner Caps",
+      "Protection Class": "IP54 / IP65 Dust and Splash Resistance",
+      "Mounting System": "Top / Bottom Swivel Flange, Articulated Support Arm",
+      "Display Sizes": "Compatible with 7\" to 24\" Touchscreens & IPCs",
+      "Cable Management": "Internal Concealed Ducting through Support Arm",
+      "Application": "Machine control interfaces, SCADA terminals, CNC consoles"
+    }
+  },
+  {
+    id: "pas-hmi-cabinet",
+    name: "Industrial HMI Control Cabinet",
+    image: "/images/Hmi cabinet.png",
+    gallery: ["/images/Hmi cabinet.png"],
+    desc: "Industrial floor-standing electrical HMI control cabinet and operator workstation console constructed with modular anodized aluminium extrusions, hinged maintenance doors, internal DIN-rail mounting plates, and cable management glands.",
+    specs: {
+      "Construction": "Heavy-Duty Anodized Aluminium 6063-T6 Structural Framework",
+      "Cabinet Panels": "Powder-Coated Steel / Transparent Acrylic Inspection Panels",
+      "Mounting Options": "Internal Sub-Plates for PLC, Drives & Power Supplies",
+      "Access & Security": "Front & Rear Lockable Hinged Access Doors",
+      "Protection Standard": "IP54 Industrial Ingress Protection",
+      "Mobility / Base": "Heavy-Duty Leveling Feet or Dual-Locking Swivel Casters",
+      "Application": "Machine control consoles, electrical distribution cabinets, automation lines"
+    }
+  },
+  {
     id: "pas-001",
     name: "Automated CNC Work Cell",
     image: "/images/Profile Assembly System/CNC-Automat 1.jpg",
@@ -1639,6 +1701,22 @@ const FINISHING_SYSTEMS = [
 ];
 
 const PROTECTION_SYSTEMS = [
+  {
+    id: "pr-sys-robot-fencing",
+    name: "Robotic Cell Safety Fencing",
+    image: "/images/Robot safety fencing.png",
+    gallery: ["/images/Robot safety fencing.png"],
+    desc: "Modular industrial perimeter safety guarding fence system for robotic cells, automated machinery, and hazardous manufacturing zones, with robust aluminium frame posts, steel mesh infill, and safety switch integration.",
+    specs: {
+      "Post Dimensions": "40x40 / 40x80 / 45x45 mm Heavy Anodized Aluminium",
+      "Mesh Specification": "40x40 mm Welded Steel Wire Mesh / Polycarbonate",
+      "Standard Heights": "1800 mm, 2000 mm, 2200 mm Modular Panels",
+      "Door Options": "Hinged Single/Double Doors, Linear Sliding Safety Gates",
+      "Safety Standards": "Fully compliant with ISO 14120 and ISO 13857 safety norms",
+      "Accessory Ready": "Pre-drilled mounting for safety interlock switches & light curtains",
+      "Application": "Industrial robot cells, automated welding stations, conveyor perimeter guarding"
+    }
+  },
   {
     id: "pr-sys-01",
     name: "GMS Series Modular Guarding",

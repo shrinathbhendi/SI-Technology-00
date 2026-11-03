@@ -150,18 +150,39 @@ export default function Home() {
       imageScale: "h-[300px] sm:h-[440px] lg:h-[500px] xl:h-[540px]"
     },
     {
-      image: "/images/hero-bg-11.png",
-      title1: "Automated Vertical",
-      title2: "Handling Systems.",
-      subtitle: "Custom Vertical Elevators & Integrated Production Line Solutions.",
-      imageScale: "h-[300px] sm:h-[440px] lg:h-[520px] xl:h-[580px] scale-110 lg:scale-115"
+      image: "/images/Pipe & Joint Accessories.png",
+      title1: "Pipe & Joint",
+      title2: "Accessories.",
+      subtitle: "Modular Connectors, Roller Tracks & Lean Assembly Accessories.",
+      imageScale: "h-[300px] sm:h-[440px] lg:h-[500px] xl:h-[540px]"
     },
     {
-      image: "/images/hero-conveyor.png",
-      title1: "Modular Belt",
-      title2: "Conveyor Systems.",
-      subtitle: "High-Efficiency Material Handling & Assembly Lines.",
-      imageScale: "h-[300px] sm:h-[440px] lg:h-[520px] xl:h-[580px] scale-110 lg:scale-115"
+      image: "/images/MS Fabricator Table.png",
+      title1: "MS Fabricator",
+      title2: "Welding Tables.",
+      subtitle: "Heavy-Duty Fabrication Workbenches & Clamping Fixture Stations.",
+      imageScale: "h-[300px] sm:h-[440px] lg:h-[500px] xl:h-[540px]"
+    },
+    {
+      image: "/images/HMI Enclosure.png",
+      title1: "Industrial HMI",
+      title2: "Enclosures.",
+      subtitle: "Ergonomic Operator Interface Panels & Modular Display Arms.",
+      imageScale: "h-[300px] sm:h-[440px] lg:h-[500px] xl:h-[540px]"
+    },
+    {
+      image: "/images/Hmi cabinet.png",
+      title1: "Industrial HMI",
+      title2: "Cabinets.",
+      subtitle: "Modular Control Consoles & Electrical Automation Enclosures.",
+      imageScale: "h-[300px] sm:h-[440px] lg:h-[500px] xl:h-[540px]"
+    },
+    {
+      image: "/images/Robot safety fencing.png",
+      title1: "Robot Safety",
+      title2: "Fencing Systems.",
+      subtitle: "Modular Perimeter Guarding & Interlocked Safety Enclosures.",
+      imageScale: "h-[300px] sm:h-[440px] lg:h-[500px] xl:h-[540px]"
     },
     {
       image: "/images/Fifo rack.png",
@@ -861,37 +882,67 @@ export default function Home() {
             link: "/products?category=workstations",
           },
           {
-            num: "07", title: "Pipe & Joint Systems", series: "3 Series", tags: ["Pipe Joints"],
+            num: "07", title: "MS Fabricator Table", series: "Heavy Fabrication", tags: ["Welding Bench", "MS Table", "Clamping Fixture"],
+            img: "/images/MS Fabricator Table.png",
+            desc: "Robust mild-steel fabrication table engineered for high load capacity, precision jig clamping, tool storage, and industrial welding.",
+            link: "/products?category=workstations",
+          },
+          {
+            num: "08", title: "Pipe & Joint Systems", series: "3 Series", tags: ["Pipe Joints"],
             img: "/images/pipe_joint/pipe_joint_007.jpg",
             desc: "Heavy-duty pipe & joint systems for material handling trolleys, racks, and flexible assembly structures with locking casters.",
             link: "/products?category=pipe-joint-systems",
           },
           {
-            num: "08", title: "Belt Conveyors", series: "3 Series", tags: ["Belt Conveyors"],
+            num: "09", title: "Pipe & Joint Accessories", series: "Lean Modular", tags: ["Metal Joints", "Roller Tracks", "Brackets"],
+            img: "/images/Pipe & Joint Accessories.png",
+            desc: "Heavy-duty metal pipe joints, placon roller tracks, slide rails, multi-angle connectors, and lean racking accessories.",
+            link: "/products?category=pipe-joint-systems",
+          },
+          {
+            num: "10", title: "Belt Conveyors", series: "3 Series", tags: ["Belt Conveyors"],
             img: "/images/conveyor/Picture 374.jpg",
             desc: "Motorized belt conveyors and roller track systems built on aluminium profile frames for smooth production line integration.",
             link: "/products?category=belt-conveyors",
           },
           {
-            num: "09", title: "Heavy Duty Applications", series: "2 Series", tags: ["Industrial"],
+            num: "11", title: "Heavy Duty Applications", series: "2 Series", tags: ["Industrial"],
             img: "/images/Have duty app/IMG_2695.JPG",
             desc: "Robust industrial frames and heavy-duty application structures engineered for high-load manufacturing and automation environments.",
             link: "/products?category=heavy-duty-app",
           },
           {
-            num: "10", title: "Heavy Duty Profiles", series: "2 Series", tags: ["Heavy Profiles"],
+            num: "12", title: "Heavy Duty Profiles", series: "2 Series", tags: ["Heavy Profiles"],
             img: "/images/Heavy duty profiles/Portalsystem.jpg",
             desc: "High-strength aluminium portal frames and structural profiles for overhead gantries, machine frames, and heavy industrial racking.",
             link: "/products?category=heavy-duty-profiles",
           },
           {
-            num: "11", title: "Profile Assembly Systems", series: "4 Series", tags: ["Assembly"],
+            num: "13", title: "Profile Assembly Systems", series: "4 Series", tags: ["Assembly"],
             img: "/images/Profile Assembly System/Fertigungslinie_OKIN.jpg",
             desc: "Complete profile-based assembly automation systems — from modular cell framing to full production line enclosures and fixtures.",
             link: "/products?category=profile-assembly-system",
           },
           {
-            num: "12", title: "Finishing Systems", series: "2 Series", tags: ["Finishing"],
+            num: "14", title: "Industrial HMI Enclosure", series: "Control Systems", tags: ["HMI Enclosure", "Control Arm", "IP65 Panel"],
+            img: "/images/HMI Enclosure.png",
+            desc: "Precision aluminium operator interface enclosure system with articulating support arm for touchscreens and control panels.",
+            link: "/products?category=profile-assembly-system",
+          },
+          {
+            num: "15", title: "Industrial HMI Cabinet", series: "Control Cabinets", tags: ["HMI Cabinet", "Control Console", "Automation Enclosure"],
+            img: "/images/Hmi cabinet.png",
+            desc: "Heavy-duty aluminium profile electrical control cabinet and operator console with integrated wiring ducts, cable entry, and locking doors.",
+            link: "/products?category=profile-assembly-system",
+          },
+          {
+            num: "16", title: "Robot Safety Fencing", series: "Perimeter Safety", tags: ["Robot Fencing", "Perimeter Guard", "ISO 13857"],
+            img: "/images/Robot safety fencing.png",
+            desc: "Heavy-duty modular robotic cell perimeter fencing with wire mesh panels, safety interlock door mounts, and ISO-compliant guarding.",
+            link: "/products?category=protection-systems",
+          },
+          {
+            num: "17", title: "Finishing Systems", series: "2 Series", tags: ["Finishing"],
             img: "/images/feneshing/Picture 476.jpg",
             desc: "Premium surface finishing accessories — slot covers, end caps, corner profiles, and cable management inserts for a clean final look.",
             link: "/products?category=finishing-systems",
