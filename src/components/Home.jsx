@@ -119,6 +119,13 @@ export default function Home() {
       imageScale: "h-[260px] sm:h-[380px] lg:h-[440px] xl:h-[480px]"
     },
     {
+      image: "/images/Aluminium profile conection accessories.png",
+      title1: "Profile Connection",
+      title2: "Accessories.",
+      subtitle: "Precision Fasteners, Corner Brackets & Structural Assembly Joints.",
+      imageScale: "h-[300px] sm:h-[440px] lg:h-[500px] xl:h-[540px]"
+    },
+    {
       image: "/images/PCB Testing Workstation.png",
       title1: "PCB Testing",
       title2: "Workstations.",
@@ -833,6 +840,12 @@ export default function Home() {
             img: "/images/Aluminium industrial.png",
             desc: "Modular 6063-T6 aluminium extrusions in 20mm, 40mm, and 80mm series. Compatible with all standard DIN connectors and accessories.",
             link: "/products?category=aluminium-profiles",
+          },
+          {
+            num: "02", title: "Profile Connection Accessories", series: "Connecting Elements", tags: ["Corner Brackets", "T-Nuts", "Joint Plates"],
+            img: "/images/Aluminium profile conection accessories.png",
+            desc: "Die-cast corner brackets, internal hidden joints, T-bolts, spring nuts, and precision connecting fasteners for 20, 30, 40, and 45 series profiles.",
+            link: "/products?category=connecting-elements",
           },
           {
             num: "02", title: "Workstations & Solutions", series: "5 Series", tags: ["Lean Workstations"],

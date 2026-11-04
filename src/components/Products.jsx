@@ -182,6 +182,21 @@ const ALUMINIUM_PROFILES = [
 
 const FASTENERS = [
   {
+    id: "fa-conn-fasteners",
+    name: "Aluminium Profile Connection Accessories & Fasteners",
+    image: "/images/Aluminium profile conection accessories.png",
+    gallery: ["/images/Aluminium profile conection accessories.png"],
+    desc: "Essential connection hardware set featuring hammer-head T-bolts, roll-in T-nuts with spring ball, heavy-duty gusset brackets, and precision fasteners for structural framing.",
+    specs: {
+      "Thread Sizes": "M4, M5, M6, M8 Metric Threads",
+      "Slot Width": "6mm, 8mm, 10mm Standard DIN T-Slots",
+      "Material": "Grade 8.8 Carbon Steel + Zinc Plated / Die-Cast Aluminium",
+      "Corrosion Resistance": "High-Durability Zinc-Plated & Anodized Finish",
+      "Torque Rating": "Up to 25 Nm depending on thread diameter",
+      "Application": "Modular frame joints, dynamic load assemblies, profile fastening"
+    }
+  },
+  {
     id: "fa-01",
     name: "T-Bolt M6 × 12mm",
     image: null,
@@ -205,6 +220,21 @@ const FASTENERS = [
 ];
 
 const ACCESSORIES = [
+  {
+    id: "ac-conn-accessories",
+    name: "Aluminium Profile Connection Accessories",
+    image: "/images/Aluminium profile conection accessories.png",
+    gallery: ["/images/Aluminium profile conection accessories.png"],
+    desc: "Complete collection of precision connection accessories and joint elements for aluminium profiles, including die-cast corner brackets, internal hidden joints, T-bolts, spring nuts, corner gussets, and structural mounting hardware.",
+    specs: {
+      "Compatible Profiles": "2020 / 3030 / 4040 / 4545 / 8080 Series T-Slot & V-Slot",
+      "Components Included": "Corner Brackets, Gussets, T-Nuts, Central Bolts, End Plates",
+      "Material": "Die-Cast Aluminium Alloy 6063-T6 / High-Tensile Zinc Alloy / Steel",
+      "Surface Finish": "Silver Matte Anodized / Vibratory Polished / Nickel Plated",
+      "Joint Types": "90° Corner Joint, Butt Joint, Hidden Internal Joint, Swivel Plate",
+      "Application": "Machine framing, protective guards, cleanroom cells, industrial workstations"
+    }
+  },
   {
     id: "ac-01",
     name: "Pivot Hinge 40 Series",
