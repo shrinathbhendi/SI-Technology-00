@@ -25,7 +25,7 @@ function FlipCard({ cat, isActive }) {
         style={{
           transformStyle: "preserve-3d",
           transform: flipped ? "rotateY(180deg)" : "rotateY(0deg)",
-          height: "380px",
+          height: "435px",
         }}
       >
         {/* ── FRONT: Image & Solid Text Box ── */}
@@ -34,7 +34,7 @@ function FlipCard({ cat, isActive }) {
           style={{ backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden" }}
         >
           {/* Image Box */}
-          <div className="relative h-[320px] w-full overflow-hidden bg-slate-900">
+          <div className="relative h-[365px] w-full overflow-hidden bg-slate-900">
             <img
               src={cat.img}
               alt={cat.title}
@@ -52,7 +52,7 @@ function FlipCard({ cat, isActive }) {
           </div>
 
           {/* Solid Content Box */}
-          <div className="h-[60px] w-full bg-primary-950 border-t border-white/5 px-4 flex items-center justify-center text-center">
+          <div className="h-[70px] w-full bg-primary-950 border-t border-white/5 px-4 flex items-center justify-center text-center">
             <h3 className="font-display font-black text-xs sm:text-sm text-white uppercase tracking-wider leading-tight">
               {cat.title}
             </h3>
@@ -61,7 +61,7 @@ function FlipCard({ cat, isActive }) {
 
         {/* ── BACK: Info ── */}
         <div
-          className="absolute inset-0 rounded-2xl overflow-hidden shadow-xl border-2 border-zinc-800 bg-[#09090b] flex flex-col justify-between p-6"
+          className="absolute inset-0 rounded-2xl overflow-hidden shadow-xl border-2 border-zinc-800 bg-[#09090b] flex flex-col justify-between p-5 sm:p-6"
           style={{
             backfaceVisibility: "hidden",
             WebkitBackfaceVisibility: "hidden",
@@ -69,25 +69,25 @@ function FlipCard({ cat, isActive }) {
           }}
         >
           {/* Top accent bar */}
-          <div className="w-12 h-1 bg-accent-500 rounded-full mb-2" />
+          <div className="w-12 h-1 bg-accent-500 rounded-full mb-1 shrink-0" />
 
-          <div className="space-y-4 flex-1">
-            <span className="text-xs font-mono font-bold text-accent-400 uppercase tracking-widest">
+          <div className="space-y-2.5 flex-1 flex flex-col justify-start overflow-hidden">
+            <span className="text-[11px] font-mono font-bold text-accent-400 uppercase tracking-widest shrink-0">
               {cat.num} / Category
             </span>
-            <h3 className="font-display font-black text-2xl text-white leading-tight">
+            <h3 className="font-display font-black text-lg sm:text-xl text-white leading-tight shrink-0">
               {cat.title}
             </h3>
-            <p className="text-white/70 text-sm leading-relaxed font-normal">
+            <p className="text-white/75 text-xs sm:text-sm leading-relaxed font-normal line-clamp-3">
               {cat.desc}
             </p>
 
             {/* Tags */}
-            <div className="flex flex-wrap gap-1.5 pt-1">
+            <div className="flex flex-wrap gap-1.5 pt-1 mt-auto shrink-0">
               {cat.tags.map((tag, i) => (
                 <span
                   key={i}
-                  className="text-[10px] font-mono font-bold uppercase tracking-wider bg-accent-500/15 text-accent-400 px-2.5 py-1 rounded-full border border-accent-500/30"
+                  className="text-[9.5px] font-mono font-bold uppercase tracking-wider bg-accent-500/15 text-accent-400 px-2.5 py-0.5 rounded-full border border-accent-500/30"
                 >
                   {tag}
                 </span>
@@ -96,18 +96,18 @@ function FlipCard({ cat, isActive }) {
           </div>
 
           {/* Bottom CTA */}
-          <div className="space-y-3 pt-4 border-t border-white/10">
+          <div className="space-y-2.5 pt-3.5 border-t border-white/10 shrink-0 mt-3">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-mono font-bold text-white/40 uppercase tracking-widest">
+              <span className="text-xs font-mono font-bold text-white/50 uppercase tracking-widest">
                 {cat.series}
               </span>
-              <div className="w-8 h-8 rounded-full bg-accent-500/20 border border-accent-500/40 flex items-center justify-center">
-                <ArrowUpRight size={14} className="text-accent-400" />
+              <div className="w-7 h-7 rounded-full bg-accent-500/20 border border-accent-500/40 flex items-center justify-center">
+                <ArrowUpRight size={13} className="text-accent-400" />
               </div>
             </div>
             <Link
               to={cat.link || "/products"}
-              className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-accent-500 hover:bg-accent-600 text-white text-xs font-bold uppercase tracking-wider transition-colors duration-200 shadow-lg shadow-accent-500/30"
+              className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-accent-500 hover:bg-accent-600 text-white text-xs font-bold uppercase tracking-wider transition-colors duration-200 shadow-lg shadow-accent-500/30 shrink-0 cursor-pointer"
             >
               Explore Category
               <ArrowRight size={13} />
@@ -130,17 +130,19 @@ export default function ProductCategorySlider({ categories }) {
   // Duplicate items for seamless infinite scroll
   const items = [...categories, ...categories];
 
-  const CARD_WIDTH  = 330; // card width + gap
+  const CARD_WIDTH  = 340; // card width + gap
   const TOTAL_WIDTH = categories.length * CARD_WIDTH;
   const SPEED       = 0.6; // px per frame (~36px/s at 60fps)
 
   const animate = useCallback(() => {
     if (!trackRef.current) return;
 
+    const oneSetWidth = (trackRef.current.scrollWidth / 2) || TOTAL_WIDTH;
+
     if (!isPaused.current) {
       posRef.current += SPEED;
       // Reset position seamlessly when we've scrolled one full set
-      if (posRef.current >= TOTAL_WIDTH) posRef.current = 0;
+      if (posRef.current >= oneSetWidth) posRef.current = 0;
       trackRef.current.style.transform = `translateX(-${posRef.current}px)`;
     }
     animRef.current = requestAnimationFrame(animate);
