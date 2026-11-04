@@ -154,14 +154,7 @@ export default function Home() {
       imageScale: "h-[300px] sm:h-[440px] lg:h-[500px] xl:h-[540px]"
     },
     {
-      image: "/images/HMI Enclosure.png",
-      title1: "Industrial HMI",
-      title2: "Enclosures.",
-      subtitle: "Ergonomic Operator Interface Panels & Modular Display Arms.",
-      imageScale: "h-[300px] sm:h-[440px] lg:h-[500px] xl:h-[540px]"
-    },
-    {
-      image: "/images/Hmi cabinet.png",
+      image: "/images/Hmi cabinet .png",
       title1: "Industrial HMI",
       title2: "Cabinets.",
       subtitle: "Modular Control Consoles & Electrical Automation Enclosures.",
