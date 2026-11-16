@@ -185,6 +185,13 @@ export default function Home() {
       imageScale: "h-[300px] sm:h-[440px] lg:h-[500px] xl:h-[540px]"
     },
     {
+      image: "/images/FENCING ASSEMBLY FOOT.png",
+      title1: "Fencing Assembly",
+      title2: "Foot Plates.",
+      subtitle: "Heavy-Duty Floor Mounting Brackets & Anchor Base Plates for Safety Guarding.",
+      imageScale: "h-[300px] sm:h-[440px] lg:h-[500px] xl:h-[540px]"
+    },
+    {
       image: "/images/Fifo rack.png",
       title1: "FIFO Rack",
       title2: "Storage Systems.",
@@ -948,7 +955,13 @@ export default function Home() {
             link: "/products?category=protection-systems",
           },
           {
-            num: "17", title: "Finishing Systems", series: "2 Series", tags: ["Finishing"],
+            num: "17", title: "Fencing Assembly Foot", series: "Perimeter Safety", tags: ["Fencing Foot", "Base Plate", "Floor Mount"],
+            img: "/images/FENCING ASSEMBLY FOOT.png",
+            desc: "Heavy-duty cast floor mounting base foot bracket designed to secure aluminium safety fence posts firmly to shopfloor foundations.",
+            link: "/products?category=protection-systems",
+          },
+          {
+            num: "18", title: "Finishing Systems", series: "2 Series", tags: ["Finishing"],
             img: "/images/feneshing/Picture 476.jpg",
             desc: "Premium surface finishing accessories — slot covers, end caps, corner profiles, and cable management inserts for a clean final look.",
             link: "/products?category=finishing-systems",

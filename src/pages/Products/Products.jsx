@@ -1748,6 +1748,20 @@ const PROTECTION_SYSTEMS = [
     }
   },
   {
+    id: "pr-sys-fencing-foot",
+    name: "Fencing Assembly Base Foot",
+    image: "/images/FENCING ASSEMBLY FOOT.png",
+    gallery: ["/images/FENCING ASSEMBLY FOOT.png"],
+    desc: "Heavy-duty cast floor mounting base foot bracket designed to secure aluminium safety fence posts firmly to shopfloor foundations with anchoring bolts.",
+    specs: {
+      "Material": "Die-Cast Aluminium / Heavy-Duty Zinc Alloy",
+      "Post Compatibility": "40x40 / 45x45 / 40x80 mm Fencing Profiles",
+      "Mounting": "Dual Floor Anchor Bolt Holes (Ø10–Ø12 mm)",
+      "Finish": "Sandblasted Silver Anodized / Powder Coated Black",
+      "Application": "Floor anchoring for robotic cell guarding, perimeter fencing, machine safety enclosures"
+    }
+  },
+  {
     id: "pr-sys-01",
     name: "GMS Series Modular Guarding",
     image: "/Protection System/GMS 01.jpg",
