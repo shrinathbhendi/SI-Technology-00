@@ -119,10 +119,17 @@ export default function Home() {
       imageScale: "h-[260px] sm:h-[380px] lg:h-[440px] xl:h-[480px]"
     },
     {
-      image: "/images/Aluminium profile conection accessories.png",
-      title1: "Profile Connection",
-      title2: "Accessories.",
-      subtitle: "Precision Fasteners, Corner Brackets & Structural Assembly Joints.",
+      image: "/images/hero1010.png",
+      title1: "Hardware &",
+      title2: "Fastening Elements.",
+      subtitle: "Precision T-Nuts, Hammer Head T-Bolts, Socket Screws & Threaded Inserts.",
+      imageScale: "h-[300px] sm:h-[440px] lg:h-[500px] xl:h-[540px]"
+    },
+    {
+      image: "/images/hero111.png",
+      title1: "Modular Connection",
+      title2: "Elements & Joints.",
+      subtitle: "Die-Cast Corner Brackets, Flat Joint Plates, Hinges, Handles & Structural Hardware.",
       imageScale: "h-[300px] sm:h-[440px] lg:h-[500px] xl:h-[540px]"
     },
     {
@@ -169,9 +176,9 @@ export default function Home() {
     },
     {
       image: "/images/FENCING ASSEMBLY FOOT.png",
-      title1: "Fencing Assembly",
-      title2: "Foot Plates.",
-      subtitle: "Heavy-Duty Floor Mounting Brackets & Anchor Base Plates for Safety Guarding.",
+      title1: "Levelling Foot / Castor Wheel /",
+      title2: "Fencing Assembly Foot.",
+      subtitle: "Available in POLYMIDE / MS / SS / FIX / SWIVEL / SWIVEL + BRAKE IN ALL REGULAR SIZES.",
       imageScale: "h-[300px] sm:h-[440px] lg:h-[500px] xl:h-[540px]"
     },
     {
@@ -327,7 +334,7 @@ export default function Home() {
           {/* Background Image of Hero Section */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none z-0 opacity-[0.15] overflow-hidden">
             <img
-              src="/images/logo/si-technology-new-logo.png"
+              src="/images/new logo.png"
               alt="SI Technology Watermark"
               className="w-full h-full object-contain max-w-5xl scale-110"
             />
@@ -361,12 +368,6 @@ export default function Home() {
 
                 {/* RIGHT COLUMN: Slide Text Content (7 cols mobile, 6 cols desktop) */}
                 <div className="col-span-7 sm:col-span-6 flex flex-col items-start text-left px-1 xs:px-2 sm:px-0 space-y-2 sm:space-y-3">
-                  {/* Category Pill Tag */}
-                  <div className="inline-flex items-center gap-2 bg-blue-100/90 border border-blue-200 text-blue-800 font-mono font-bold text-[10px] sm:text-xs uppercase tracking-wider px-3.5 py-1 rounded-full shadow-sm">
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-600 animate-pulse" />
-                    SI TECHNOLOGY PUNE
-                  </div>
-
                   <h1 className="text-[16px] xs:text-[19px] sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-black uppercase leading-tight tracking-tight sm:tracking-tight mb-1 sm:mb-3">
                     <span className="block font-black text-[#0f172a] tracking-tight drop-shadow-[0_4px_12px_rgba(0,0,0,0.3)]">
                       {heroSlides[heroSlide].title1}
@@ -627,12 +628,12 @@ export default function Home() {
                       className="absolute z-20 w-44 h-44 xs:w-52 xs:h-52 sm:w-64 sm:h-64 rounded-full bg-[#0a1128] border-4 border-white shadow-2xl overflow-hidden flex flex-col items-center justify-center cursor-pointer transition-all duration-500 group/center"
                     >
                       <img
-                        src="/images/logo/si-technology-logo-round.jpg"
+                        src="/images/new logo.png"
                         alt="S I Technology Logo"
                         className="w-full h-full object-cover group-hover/center:scale-105 transition-transform duration-500"
                         onError={(e) => {
                           e.target.onerror = null;
-                          e.target.src = "/images/logo/si-technology-new-logo.png";
+                          e.target.src = "/images/new logo.png";
                         }}
                       />
                     </motion.div>
@@ -842,9 +843,15 @@ export default function Home() {
             link: "/products?category=aluminium-profiles",
           },
           {
-            num: "02", title: "Profile Connection Accessories", series: "Connecting Elements", tags: ["Corner Brackets", "T-Nuts", "Joint Plates"],
-            img: "/images/Aluminium profile conection accessories.png",
-            desc: "Die-cast corner brackets, internal hidden joints, T-bolts, spring nuts, and precision connecting fasteners for 20, 30, 40, and 45 series profiles.",
+            num: "02", title: "Hardware & Fastening Elements", series: "Connecting Elements", tags: ["T-Nuts", "Hammer Bolts", "Socket Screws"],
+            img: "/images/hero1010.png",
+            desc: "Precision T-nuts, hammer head T-bolts, socket head cap screws, and threaded inserts for 20, 30, 40, and 45 series aluminium profiles.",
+            link: "/products?category=connecting-elements",
+          },
+          {
+            num: "03", title: "Modular Connection Accessories", series: "Joint Elements", tags: ["Corner Brackets", "Joint Plates", "Hinges & Handles"],
+            img: "/images/hero111.png",
+            desc: "Die-cast corner brackets, flat joint plates, cube connectors, hinges, and structural assembly accessories for modular profile systems.",
             link: "/products?category=connecting-elements",
           },
           {
@@ -938,9 +945,9 @@ export default function Home() {
             link: "/products?category=protection-systems",
           },
           {
-            num: "17", title: "Fencing Assembly Foot", series: "Perimeter Safety", tags: ["Fencing Foot", "Base Plate", "Floor Mount"],
+            num: "17", title: "Levelling Foot / Castor Wheel", series: "Floor & Base Accessories", tags: ["Levelling Foot", "Castor Wheel", "Fencing Foot"],
             img: "/images/FENCING ASSEMBLY FOOT.png",
-            desc: "Heavy-duty cast floor mounting base foot bracket designed to secure aluminium safety fence posts firmly to shopfloor foundations.",
+            desc: "Available in POLYMIDE / MS / SS / FIX / SWIVEL / SWIVEL + BRAKE IN ALL REGULAR SIZES.",
             link: "/products?category=protection-systems",
           },
           {

@@ -183,10 +183,10 @@ const ALUMINIUM_PROFILES = [
 const FASTENERS = [
   {
     id: "fa-conn-fasteners",
-    name: "Aluminium Profile Connection Accessories & Fasteners",
-    image: "/images/Aluminium profile conection accessories.png",
-    gallery: ["/images/Aluminium profile conection accessories.png"],
-    desc: "Essential connection hardware set featuring hammer-head T-bolts, roll-in T-nuts with spring ball, heavy-duty gusset brackets, and precision fasteners for structural framing.",
+    name: "Aluminium Profile Fastening Hardware & T-Nuts",
+    image: "/images/hero1010.png",
+    gallery: ["/images/hero1010.png"],
+    desc: "Essential fastening hardware set featuring hammer-head T-bolts, roll-in T-nuts with spring ball, socket head screws, and precision reducer bushings for structural framing.",
     specs: {
       "Thread Sizes": "M4, M5, M6, M8 Metric Threads",
       "Slot Width": "6mm, 8mm, 10mm Standard DIN T-Slots",
@@ -222,10 +222,10 @@ const FASTENERS = [
 const ACCESSORIES = [
   {
     id: "ac-conn-accessories",
-    name: "Aluminium Profile Connection Accessories",
-    image: "/images/Aluminium profile conection accessories.png",
-    gallery: ["/images/Aluminium profile conection accessories.png"],
-    desc: "Complete collection of precision connection accessories and joint elements for aluminium profiles, including die-cast corner brackets, internal hidden joints, T-bolts, spring nuts, corner gussets, and structural mounting hardware.",
+    name: "Modular Profile Connection Accessories & Joints",
+    image: "/images/hero111.png",
+    gallery: ["/images/hero111.png", "/images/hero 111.png"],
+    desc: "Complete collection of precision connection accessories and joint elements for aluminium profiles, including die-cast corner brackets, internal hidden joints, pivot hinges, cube connectors, gussets, and structural mounting hardware.",
     specs: {
       "Compatible Profiles": "2020 / 3030 / 4040 / 4545 / 8080 Series T-Slot & V-Slot",
       "Components Included": "Corner Brackets, Gussets, T-Nuts, Central Bolts, End Plates",
@@ -1749,16 +1749,17 @@ const PROTECTION_SYSTEMS = [
   },
   {
     id: "pr-sys-fencing-foot",
-    name: "Fencing Assembly Base Foot",
+    name: "Levelling Foot / Castor Wheel / Fencing Assembly Foot",
     image: "/images/FENCING ASSEMBLY FOOT.png",
     gallery: ["/images/FENCING ASSEMBLY FOOT.png"],
-    desc: "Heavy-duty cast floor mounting base foot bracket designed to secure aluminium safety fence posts firmly to shopfloor foundations with anchoring bolts.",
+    desc: "Available in POLYMIDE / MS / SS / FIX / SWIVEL / SWIVEL + BRAKE IN ALL REGULAR SIZES. Heavy-duty floor mounting base foot brackets, adjustable levelling mounts, and industrial castor wheels designed for aluminium profiles and safety guarding.",
     specs: {
-      "Material": "Die-Cast Aluminium / Heavy-Duty Zinc Alloy",
-      "Post Compatibility": "40x40 / 45x45 / 40x80 mm Fencing Profiles",
-      "Mounting": "Dual Floor Anchor Bolt Holes (Ø10–Ø12 mm)",
-      "Finish": "Sandblasted Silver Anodized / Powder Coated Black",
-      "Application": "Floor anchoring for robotic cell guarding, perimeter fencing, machine safety enclosures"
+      "Options Available": "POLYMIDE / MS / SS / FIX / SWIVEL / SWIVEL + BRAKE",
+      "Sizes Available": "All regular standard metric DIN sizes",
+      "Post Compatibility": "40x40 / 45x45 / 40x80 mm Fencing & Framing Profiles",
+      "Mounting": "Dual Floor Anchor Bolt Holes (Ø10–Ø12 mm) / Threaded Studs / Plate Mount",
+      "Finish": "Sandblasted Silver Anodized / Zinc Plated / Black Powder Coated",
+      "Application": "Floor anchoring for robotic cell guarding, perimeter fencing, machine levelling, mobile trolleys"
     }
   },
   {

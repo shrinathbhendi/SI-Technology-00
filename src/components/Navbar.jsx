@@ -71,35 +71,39 @@ export default function Navbar() {
             </a>
           </div>
 
-          {/* Right: Social icons */}
-          <div className="flex items-center gap-2">
-            <a
-              href={SITE_CONFIG.social.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-5 h-5 rounded-full bg-blue-500/20 hover:bg-blue-600 flex items-center justify-center text-white transition-colors border border-blue-400/20"
-              aria-label="LinkedIn"
-            >
-              <FaLinkedinIn size={11} />
-            </a>
-            <a
-              href={SITE_CONFIG.social.youtube}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-5 h-5 rounded-full bg-blue-500/20 hover:bg-blue-600 flex items-center justify-center text-white transition-colors border border-blue-400/20"
-              aria-label="YouTube"
-            >
-              <FaYoutube size={11} />
-            </a>
-
+          {/* Right: Social icons (Insta -> YT -> LinkedIn in original brand colors) */}
+          <div className="flex items-center gap-2 sm:gap-2.5">
+            {/* 1. Instagram */}
             <a
               href={SITE_CONFIG.social.instagram}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-5 h-5 rounded-full bg-blue-500/20 hover:bg-blue-600 flex items-center justify-center text-white transition-colors border border-blue-400/20"
+              className="w-6 h-6 rounded-full bg-gradient-to-tr from-[#f09433] via-[#dc2743] to-[#bc1888] flex items-center justify-center text-white transition-all hover:scale-110 shadow-sm"
               aria-label="Instagram"
             >
-              <FaInstagram size={11} />
+              <FaInstagram size={13} />
+            </a>
+
+            {/* 2. YouTube */}
+            <a
+              href={SITE_CONFIG.social.youtube}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-6 h-6 rounded-full bg-[#FF0000] hover:bg-[#d90000] flex items-center justify-center text-white transition-all hover:scale-110 shadow-sm"
+              aria-label="YouTube"
+            >
+              <FaYoutube size={13} />
+            </a>
+
+            {/* 3. LinkedIn */}
+            <a
+              href={SITE_CONFIG.social.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-6 h-6 rounded-full bg-[#0A66C2] hover:bg-[#004182] flex items-center justify-center text-white transition-all hover:scale-110 shadow-sm"
+              aria-label="LinkedIn"
+            >
+              <FaLinkedinIn size={13} />
             </a>
           </div>
         </div>
@@ -110,15 +114,18 @@ export default function Navbar() {
           <Link
             to="/"
             onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center gap-3 shrink-0 py-0"
+            className="flex items-center gap-2 sm:gap-3 shrink-0 py-0 group"
           >
             <div className="flex items-center">
               <img
-                src="/images/logo/si-technology-new-logo.png"
+                src="/images/new logo.png"
                 alt="SI Technology Logo"
-                className="h-[46px] sm:h-[58px] lg:h-[68px] w-auto object-contain"
+                className="h-[38px] sm:h-[48px] lg:h-[56px] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </div>
+            <span className="font-display font-black text-black text-sm sm:text-base lg:text-lg tracking-wider uppercase select-none">
+              S I TECHNOLOGY
+            </span>
           </Link>
 
           {/* Desktop Nav Links */}

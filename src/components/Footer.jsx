@@ -25,7 +25,7 @@ export default function Footer() {
           <Link to="/" className="flex items-center gap-3.5 group no-underline hover:no-underline">
             <div className="relative w-11 h-11 bg-white rounded-lg p-1 transition-all border border-blue-400/20 shadow-md flex items-center justify-center">
               <img
-                src="/images/logo/si-technology-new-logo.png"
+                src="/images/new logo.png"
                 alt="SI Technology Logo"
                 className="object-contain max-h-full max-w-full"
               />
@@ -49,35 +49,39 @@ export default function Footer() {
             <span>Made in India</span>
           </div>
 
-          {/* Social Links */}
+          {/* Social Links (Insta -> YT -> LinkedIn in original brand colors) */}
           <div className="flex items-center gap-3">
-            <a
-              href={SITE_CONFIG.social.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-9 h-9 rounded-full bg-blue-900/40 hover:bg-blue-600 hover:text-white text-blue-200 flex items-center justify-center transition-all border border-blue-500/30"
-              aria-label="LinkedIn"
-            >
-              <FaLinkedin size={16} />
-            </a>
-            <a
-              href={SITE_CONFIG.social.youtube}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-9 h-9 rounded-full bg-blue-900/40 hover:bg-blue-600 hover:text-white text-blue-200 flex items-center justify-center transition-all border border-blue-500/30"
-              aria-label="YouTube"
-            >
-              <FaYoutube size={16} />
-            </a>
-
+            {/* 1. Instagram */}
             <a
               href={SITE_CONFIG.social.instagram}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-9 h-9 rounded-full bg-blue-900/40 hover:bg-blue-600 hover:text-white text-blue-200 flex items-center justify-center transition-all border border-blue-500/30"
+              className="w-9 h-9 rounded-full bg-gradient-to-tr from-[#f09433] via-[#dc2743] to-[#bc1888] text-white flex items-center justify-center transition-all hover:scale-110 shadow-md"
               aria-label="Instagram"
             >
-              <FaInstagram size={16} />
+              <FaInstagram size={17} />
+            </a>
+
+            {/* 2. YouTube */}
+            <a
+              href={SITE_CONFIG.social.youtube}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-9 h-9 rounded-full bg-[#FF0000] hover:bg-[#d90000] text-white flex items-center justify-center transition-all hover:scale-110 shadow-md"
+              aria-label="YouTube"
+            >
+              <FaYoutube size={17} />
+            </a>
+
+            {/* 3. LinkedIn */}
+            <a
+              href={SITE_CONFIG.social.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-9 h-9 rounded-full bg-[#0A66C2] hover:bg-[#004182] text-white flex items-center justify-center transition-all hover:scale-110 shadow-md"
+              aria-label="LinkedIn"
+            >
+              <FaLinkedin size={17} />
             </a>
           </div>
         </div>
