@@ -46,9 +46,8 @@ export default function Navbar() {
     <>
       {/* ─── FULL-WIDTH HEADER WRAPPER ─── */}
       <header
-        className={`fixed top-0 left-0 right-0 z-50 w-full transition-transform duration-300 ${
-          isScrolled ? "-translate-y-8 shadow-md" : "translate-y-0"
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 w-full transition-transform duration-300 ${isScrolled ? "-translate-y-8 shadow-md" : "translate-y-0"
+          }`}
       >
         {/* 1. TOP BAR (Height: 32px / h-8) */}
         <div className="h-8 bg-[#0a1128] text-white flex items-center justify-between px-4 sm:px-6 lg:px-8 select-none border-b border-blue-900/40">
@@ -120,10 +119,10 @@ export default function Navbar() {
               <img
                 src="/images/new logo.png"
                 alt="SI Technology Logo"
-                className="h-[38px] sm:h-[48px] lg:h-[56px] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                className="h-[40px] sm:h-[50px] lg:h-[58px] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </div>
-            <span className="font-display font-black text-black text-sm sm:text-base lg:text-lg tracking-wider uppercase select-none">
+            <span className="font-display font-black text-black text-base sm:text-lg lg:text-xl xl:text-[22px] tracking-wider uppercase select-none">
               S I TECHNOLOGY
             </span>
           </Link>
@@ -134,8 +133,7 @@ export default function Navbar() {
               to="/"
               onClick={() => setDropdownOpen(false)}
               className={({ isActive }) =>
-                `px-3.5 lg:px-4 py-2.5 text-xs lg:text-[13.5px] xl:text-sm font-bold uppercase tracking-wider transition-colors ${
-                  isActive ? "text-blue-600 underline decoration-2 underline-offset-4 font-black" : "text-slate-700 hover:text-blue-600"
+                `px-3.5 lg:px-4 py-2.5 text-xs lg:text-[13.5px] xl:text-sm font-bold uppercase tracking-wider transition-colors ${isActive ? "text-blue-600 underline decoration-2 underline-offset-4 font-black" : "text-slate-700 hover:text-blue-600"
                 }`
               }
             >
@@ -146,8 +144,7 @@ export default function Navbar() {
               to="/about"
               onClick={() => setDropdownOpen(false)}
               className={({ isActive }) =>
-                `px-3.5 lg:px-4 py-2.5 text-xs lg:text-[13.5px] xl:text-sm font-bold uppercase tracking-wider transition-colors ${
-                  isActive ? "text-blue-600 underline decoration-2 underline-offset-4 font-black" : "text-slate-700 hover:text-blue-600"
+                `px-3.5 lg:px-4 py-2.5 text-xs lg:text-[13.5px] xl:text-sm font-bold uppercase tracking-wider transition-colors ${isActive ? "text-blue-600 underline decoration-2 underline-offset-4 font-black" : "text-slate-700 hover:text-blue-600"
                 }`
               }
             >
@@ -164,19 +161,17 @@ export default function Navbar() {
               <div className="flex items-center gap-0.5 cursor-pointer">
                 <Link
                   to="/products"
-                  className={`px-3.5 lg:px-4 py-2.5 text-xs lg:text-[13.5px] xl:text-sm font-bold uppercase tracking-wider transition-colors ${
-                    location.pathname.includes("/products")
+                  className={`px-3.5 lg:px-4 py-2.5 text-xs lg:text-[13.5px] xl:text-sm font-bold uppercase tracking-wider transition-colors ${location.pathname.includes("/products")
                       ? "text-blue-600 underline decoration-2 underline-offset-4 font-black"
                       : "text-slate-700 hover:text-blue-600"
-                  }`}
+                    }`}
                 >
                   Products
                 </Link>
                 <ChevronDown
                   size={14}
-                  className={`transition-transform duration-200 text-slate-500 ${
-                    dropdownOpen ? "rotate-180 text-blue-600" : ""
-                  }`}
+                  className={`transition-transform duration-200 text-slate-500 ${dropdownOpen ? "rotate-180 text-blue-600" : ""
+                    }`}
                 />
               </div>
 
@@ -217,8 +212,7 @@ export default function Navbar() {
               to="/gallery"
               onClick={() => setDropdownOpen(false)}
               className={({ isActive }) =>
-                `px-3.5 lg:px-4 py-2.5 text-xs lg:text-[13.5px] xl:text-sm font-bold uppercase tracking-wider transition-colors ${
-                  isActive ? "text-blue-600 underline decoration-2 underline-offset-4 font-black" : "text-slate-700 hover:text-blue-600"
+                `px-3.5 lg:px-4 py-2.5 text-xs lg:text-[13.5px] xl:text-sm font-bold uppercase tracking-wider transition-colors ${isActive ? "text-blue-600 underline decoration-2 underline-offset-4 font-black" : "text-slate-700 hover:text-blue-600"
                 }`
               }
             >
@@ -229,8 +223,7 @@ export default function Navbar() {
               to="/contact"
               onClick={() => setDropdownOpen(false)}
               className={({ isActive }) =>
-                `px-3.5 lg:px-4 py-2.5 text-xs lg:text-[13.5px] xl:text-sm font-bold uppercase tracking-wider transition-colors ${
-                  isActive ? "text-blue-600 underline decoration-2 underline-offset-4 font-black" : "text-slate-700 hover:text-blue-600"
+                `px-3.5 lg:px-4 py-2.5 text-xs lg:text-[13.5px] xl:text-sm font-bold uppercase tracking-wider transition-colors ${isActive ? "text-blue-600 underline decoration-2 underline-offset-4 font-black" : "text-slate-700 hover:text-blue-600"
                 }`
               }
             >
@@ -297,12 +290,11 @@ export default function Navbar() {
                     <span>Products</span>
                     <ChevronDown
                       size={20}
-                      className={`transition-transform duration-300 text-blue-300/70 ${
-                        mobileProductsOpen ? "rotate-180 text-blue-400" : ""
-                      }`}
+                      className={`transition-transform duration-300 text-blue-300/70 ${mobileProductsOpen ? "rotate-180 text-blue-400" : ""
+                        }`}
                     />
                   </button>
-                  
+
                   <AnimatePresence initial={false}>
                     {mobileProductsOpen && (
                       <motion.div
